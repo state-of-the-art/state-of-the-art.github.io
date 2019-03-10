@@ -1,4 +1,4 @@
-## Welcome to State OF The Art project
+## Welcome to State Of The Art project
 
 Welcome to the main site of "State Of The Art" project.
 

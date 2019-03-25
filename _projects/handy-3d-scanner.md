@@ -12,7 +12,7 @@ sidebar:
       [GitHub](https://github.com/state-of-the-art/Handy3DScanner)
       [Milestones](https://github.com/state-of-the-art/Handy3DScanner/milestones)
       [Issues](https://github.com/state-of-the-art/Handy3DScanner/issues)
-      [PlayStore](https://play.google.com/store)
+      [PlayStore](https://play.google.com/store/apps/details?id=io.stateoftheart.handy3dscanner)
   - title: Stack
     text: C++, Qt 5.12, librealsense 2
   - title: Platforms

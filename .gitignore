@@ -38,3 +38,6 @@ Icon
 
 # Local testing metadata
 .jekyll-metadata
+
+# Lockfile
+Gemfile.lock

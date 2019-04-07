@@ -10,8 +10,6 @@ sidebar:
   - title: Links
     text: |
       [GitHub](https://github.com/state-of-the-art/Handy3DScanner)
-      [Milestones](https://github.com/state-of-the-art/Handy3DScanner/milestones)
-      [Issues](https://github.com/state-of-the-art/Handy3DScanner/issues)
       [PlayStore](https://play.google.com/store/apps/details?id=io.stateoftheart.handy3dscanner)
   - title: Stack
     text: C++, Qt 5.12, librealsense 2
@@ -51,7 +49,7 @@ It's a general-purpose portable 3D scanner complex.
 ## Requirements
 
 * Host:
-  * **Smartphone** - anything with Android 4.0.1+ and usb3 host is ok (*later usb2 will be supported*)
+  * **Smartphone** - anything with Android 5+ (Lollipop or better) and usb3 host is ok (*later usb2 will be supported*)
   * **Linux workstation** - Ubuntu LTS, Debian, CentOS...
 * **Intel Realsense D400** - stereo camera with D4 board (right now tested D415, but D435 also should be ok)
 * **USB-C/USB-C cable** - USB3.1 Gen 1 should work properly (*seems could also work on usb2 + 5V1A cable*)
@@ -74,6 +72,8 @@ last piece is just a userspace software.
 
 ## Application
 
+### Overview
+
 Basically have just 3 main functions:
 * **Capture** - allow to get shots and records of the environment
   * Single shot mode -
@@ -91,7 +91,7 @@ Basically have just 3 main functions:
   * Selection of `pc` points: single, line, box
   * Hide points: selected or unselected
   * Delete points: selected or unselected
-* **Load/Save** - when we would like to view or store `pc` or mesh (*in dev*)
+* **Load/Save** - when we would like to view or store `pc` or mesh
 
 Also there will be settings, skeletal animation and other stuff.
 
@@ -113,24 +113,20 @@ Also there will be settings, skeletal animation and other stuff.
 * Simple pc edit tools
 * Gyro-based panoramic shots (need improvement)
 
-### TODO
+### Plans
 
-Here is a list of usecases/features that will be good to see soon:
+You can see all the feature requests/bugs on the github page:
 
-* Save & load pc to user folder
-* Autogenerate triangle surface for `pc`
-* Save triangle surface as mesh file (obj)
-* Implement walk-around-object mode
-* Improve panorama mode
-* ROS bag stream capture support
-* Compress pcd/obj files
-* Create advanced selection tools:
-  * Select near points by height
-  * Select nearest object to strip background
-  * Free selection
-* Implement settings to adjust parameters
-* Implement automatic/manual align of `pc` using `PCL` algorythms
-* Animation of the pointclouds (live avatars)
+* [Milestones](https://github.com/state-of-the-art/Handy3DScanner/milestones)
+* [Issues](https://github.com/state-of-the-art/Handy3DScanner/issues)
+
+But overall we have a huge plans to make this application better!
+* **Prepare version 1.0** - it should be useful for everyday use.
+* **Kickstarter campagin** - customers want to see the complete product - so why not?
+* **Publish source code** - necessary to make sure the project will live it's long life.
+* **Reach the top** - the market could be bigger, any smartphone should get this feature
+  because AR/VR is coming. So Handy 3D Scanner can help with building the new future where
+  everyone will take not just photo, but capture part of the 3d world and place it in VR.
 
 ### OpenSource
 

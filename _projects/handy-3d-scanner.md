@@ -44,15 +44,15 @@ gallery:
 
 ## Description
 
-It's a general-purpose portable 3D scanner complex.
+General-purpose portable 3D scanner complex.
 
 ## Requirements
 
 * Host:
-  * **Smartphone** - anything with Android 5+ (Lollipop or better) and usb3 host is ok (*later usb2 will be supported*)
+  * **Smartphone** - anything with Android 5+ (Lollipop or better) and usb2/3 host is ok
   * **Linux workstation** - Ubuntu LTS, Debian, CentOS...
-* **Intel Realsense D400** - stereo camera with D4 board (right now tested D415, but D435 also should be ok)
-* **USB-C/USB-C cable** - USB3.1 Gen 1 should work properly (*seems could also work on usb2 + 5V1A cable*)
+* **Intel Realsense D400** - stereo camera with D4 board (tested D415 and D435i)
+* **USB-C/USB-C cable** - USB3.1 Gen 1 and USB2 will work properly
 * **Handy 3D Scanner** - application piece, published in Android store and available for workstations.
 
 ## Price
@@ -60,15 +60,11 @@ It's a general-purpose portable 3D scanner complex.
 * Professional 3d scanners: ~$10'000-$20'000.
 * Table laser scanners: ~$70-$500.
 
-With Intel Realsense D415 (~$140) and mobile app we can get a simple and cheap solution to provide a really
-cheap mid-range HD solution with advanced specifications:
+With Intel Realsense D415 (~$140) and mobile app you can get a simple solution with the next parameters:
 * Resolution: 1Mpix (1280x720)
 * Frame-rate: 30-60 fps
 * Angle: 63°x40°, 85°x58°
 * Range: .16-10m, .11-10m
-
-Means that finally for ~$200 users can get simple solution to build second instagram, now in 3D - and the
-last piece is just a userspace software.
 
 ## Application
 
@@ -92,6 +88,7 @@ Basically have just 3 main functions:
   * Hide points: selected or unselected
   * Delete points: selected or unselected
 * **Load/Save** - when we would like to view or store `pc` or mesh
+* **Export** - save the whole 3d scene as glTF 2.0 glb file to import it in 3d edit software or share
 
 Also there will be settings, skeletal animation and other stuff.
 
@@ -109,9 +106,9 @@ Also there will be settings, skeletal animation and other stuff.
 * Easy capture from Intel Realsense D415/D435
 * Full available camera resolution (D415 1280x720 points)
 * Preview of the captured point clouds (pc)
-* Save captured pc in PCD format (to internal app dir)
+* Save captured pc in PCD format and export scene to glTF 2
 * Simple pc edit tools
-* Gyro-based panoramic shots (need improvement)
+* Gyro-based panoramic shots
 
 ### Plans
 

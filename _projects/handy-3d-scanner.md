@@ -44,12 +44,12 @@ gallery:
 
 ## Description
 
-General-purpose portable 3D scanner complex.
+Opensource general-purpose portable 3D scanner application.
 
 ## Requirements
 
 * Host:
-  * **Smartphone** - anything with Android 5+ (Lollipop or better) and usb2/3 host is ok
+  * **Smartphone / Tablet** - anything with Android 5+ (Lollipop or better) and usb2/3 host is ok
   * **Linux workstation** - Ubuntu LTS, Debian, CentOS...
 * **Intel Realsense D400** - stereo camera with D4 board (tested D415 and D435i)
 * **USB-C/USB-C cable** - USB3.1 Gen 1 and USB2 will work properly
@@ -72,14 +72,11 @@ With Intel Realsense D415 (~$140) and mobile app you can get a simple solution w
 
 Basically have just 3 main functions:
 * **Capture** - allow to get shots and records of the environment
-  * Single shot mode -
-    Just getting shot of the current view and converting it to pointcloud (`pc`)
+  * General mode -
+    you can take pointclouds capturing your surrounding with a proper positioning of the
+    shots (gyroscope or arcore positioning).
   * Record mode (*in dev*) -
     Useful for experimenting with AI, but consumes alot of memory
-  * Walk-around mode (*in dev*) -
-    to capture relatively small objects and humans just walking around and taking pictures
-  * Panorama mode (*uses phone `gyro` to get panorama*) -
-    allow to capture panoramas & huge environments around the camera
 * **View/Edit** - shows what `pc` you have and allow to edit them
   * List of the captured `pc`
   * Show/Hide `pc` from the list
@@ -127,13 +124,23 @@ But overall we have a huge plans to make this application better!
 
 ### OpenSource
 
-We have plans to publish full source code on github to make sure application will live for a long time.
+This is an experimental project - main goal is to test State Of The Art philosophy on practice.
 
-This is an exprerimental project - main goal is to test State Of The Art philosophy on practice.
+We would like to see a number of independent developers working on the same project issues
+for the real money (attached to the ticket) or just for fun. So let's see how this will work.
 
-So for now we starting with closed source & Android PlayStore, but when there will
-be something to show - source code will be opened and we will start to actually search developers
-in opensource community to help with implementation some non-standard logic with `pc` procesing.
+#### License
+
+Repository and it's content is covered by `Apache v2.0` - so anyone can use it without any concerns.
+
+If you will have some time - it will be great to see your changes merged to the original repository -
+but it's your choise, no pressure.
+
+#### Build
+
+You can find application sources in the [GitHub](https://github.com/state-of-the-art/Handy3DScanner/)
+repository and build your own binaries for workstation/android devices following the README.md
+build steps.
 
 ## Privacy policy
 

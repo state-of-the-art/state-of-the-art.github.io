@@ -8,20 +8,37 @@ Hello stranger, since you find this site I want to tell you a little about this 
 
 In a few words: **State Of The Art project is created to change the IT world.**
 
-I'm trying to explain this in a number of blog posts, you can [see them here](/blog/).
+Blog posts are trying to explain this in a little bit more free way, you can [see them here](/blog/).
 
-But overall let's check how it will go - we have a number of interesting projects, like:
+## Our Plans
+
+We'll check how it will go - we have a number of interesting projects, like:
 * 3D Scanner - for the future AR/VR instagram
 * Peer-to-Peer Social Network application - to make sure your info will be yours
 * Guitarists software - to compete GuitarPro
 * Car multimedia and control system
 * ... and so many others
 
+## Our Codex
+
+Codex is required to descibe our behavior in a different situations and make sure we will
+follow the best practices. It doesn't mean it will be never changed - but hopefully all
+the changes will be added for good.
+
+1. *Open Source* - all our projects are open sourced and anyone can join to help.
+2. *Automation* - we belive automation is a greater good and we have to automate everything.
+3. *Privacy* - all our application or services should protect the user privacy and don't
+allow anyone but user (including us) to use this information.
+4. *Quality* - our projects are fun and we're trying to make them better with each line of
+code.
+
+## Overall
+
 And we want to test our philosophy using this project, prepare new rules, automate it and
 finally make sure - everyone can do something useful & can realize themself as the real
 creators.
 
-This project is mostly opensource and we spending all the money to pay our developers, so
+This project is about opensource and we spending all the money to pay our developers, so
 it will be nice if you can buy our software or use donate buttons to support us.
 
 Thank you!

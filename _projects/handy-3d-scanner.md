@@ -38,6 +38,11 @@ gallery:
   - url: /assets/images/projects/handy3dscanner/screenshot-06.jpg
     image_path: /assets/images/projects/handy3dscanner/screenshot-06.jpg
     alt: "Edit table mess close look"
+examples_shoe:
+  - title: "Shoe example v0.5.0"
+    image_path: "https://lh3.googleusercontent.com/u/0/d/1lmt9ZOZ-yYUmlv8-2rOz_5EmgazWcdAJ=w958-h964-iv1"
+  - title: "Shoe example v0.5.0"
+    image_path: "https://lh3.googleusercontent.com/u/0/d/1jbJmVDVctaFIjk3kiWKLrX8EedbevVGQ=w958-h964-iv1"
 ---
 
 {% include gallery caption="Couple of screenshots from Samsung S8" %}
@@ -46,14 +51,19 @@ gallery:
 
 Opensource general-purpose portable 3D scanner application.
 
+## Usage
+
+Please check out the wiki page: [Wiki](https://github.com/state-of-the-art/Handy3DScanner/wiki)
+
 ## Requirements
 
 * Host:
-  * **Smartphone / Tablet** - anything with Android 5+ (Lollipop or better) and usb2/3 host is ok
+  * **Smartphone / Tablet** - anything with Android 5+ (Lollipop or better) and usb3 or usb2 host (camera need ~1000mA)
   * **Linux workstation** - Ubuntu LTS, Debian, CentOS...
-* **Intel Realsense D400** - stereo camera with D4 board (tested D415 and D435i)
-* **USB-C/USB-C cable** - USB3.1 Gen 1 and USB2 will work properly
-* **Handy 3D Scanner** - application piece, published in Android store and available for workstations.
+  * **Linux SBC** - for small boards it also should work
+* **Intel Realsense D400** - stereo camera with D4 board (right tested D415 and D435i)
+* **USB-C/USB-C cable** - USB3.1 Gen 1 should work properly or you can use usb2 for low speed capture
+* **Handy 3D Scanner** - application piece, binaries published in Android store (paid) and available for workstations (opensource).
 
 ## Price
 
@@ -72,20 +82,18 @@ With Intel Realsense D415 (~$140) and mobile app you can get a simple solution w
 
 Basically have just 3 main functions:
 * **Capture** - allow to get shots and records of the environment
-  * General mode -
+  * General mode
     you can take pointclouds capturing your surrounding with a proper positioning of the
     shots (gyroscope or arcore positioning).
-  * Record mode (*in dev*) -
+  * Record mode (*in dev*)
     Useful for experimenting with AI, but consumes alot of memory
-* **View/Edit** - shows what `pc` you have and allow to edit them
+* **Preview** - shows what `pc` you captured
   * List of the captured `pc`
-  * Show/Hide `pc` from the list
+  * Show/Hide pointclouds
   * Camera controls: rotation, zoom, focus to point
-  * Selection of `pc` points: single, line, box
-  * Hide points: selected or unselected
-  * Delete points: selected or unselected
 * **Load/Save** - when we would like to view or store `pc` or mesh
-* **Export** - save the whole 3d scene as glTF 2.0 glb file to import it in 3d edit software or share
+  * Individual pointclouds - store in PCD format as point of clouds for the further processing
+  * Export visible - save the whole 3d scene as glTF 2.0 glb file to import it in 3d edit software or share
 
 Also there will be settings, skeletal animation and other stuff.
 
@@ -103,9 +111,20 @@ Also there will be settings, skeletal animation and other stuff.
 * Easy capture from Intel Realsense D415/D435
 * Full available camera resolution (D415 1280x720 points)
 * Preview of the captured point clouds (pc)
-* Save captured pc in PCD format and export scene to glTF 2
-* Simple pc edit tools
-* Gyro-based panoramic shots
+* Save captured pc in PCD format and export scene to glTF 2.0
+* ARCore-based camera positioning
+
+### Example data
+
+Here is a couple of examples of the captured objects with available PCD & glb files:
+
+You can find all the data on [Google Drive](https://drive.google.com/drive/folders/1FjG8bk9ozVuuPBKHqsX2-5sLytJPnAea).
+
+As you can see - the position is quite rough, but should be enough for the planned in-app PCL processing.
+
+#### Shoe (v0.5.0)
+
+{% include gallery id="examples_shoe" %}
 
 ### Plans
 

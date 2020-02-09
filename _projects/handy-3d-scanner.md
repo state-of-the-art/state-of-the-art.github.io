@@ -51,6 +51,10 @@ examples_shoe:
 
 Opensource general-purpose portable 3D scanner application.
 
+## Authors
+
+* Idea & realization: [Rabit](https://github.com/rabits)
+
 ## Usage
 
 Please check out the wiki page: [Wiki](https://github.com/state-of-the-art/Handy3DScanner/wiki)

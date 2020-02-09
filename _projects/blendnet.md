@@ -35,6 +35,10 @@ gallery:
 
 Opensource Blender addon and distributed cloud rendering system.
 
+## Authors
+
+* Idea & realization: [Rabit](https://github.com/rabits)
+
 ## Usage
 
 Please check out the wiki page: [Wiki](https://github.com/state-of-the-art/BlendNet/wiki)

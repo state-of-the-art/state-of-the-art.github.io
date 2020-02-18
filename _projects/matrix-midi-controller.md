@@ -97,7 +97,7 @@ For reported bugs and upcoming features check the issues page on GitHub:
 
 ## Arduino IDE & build
 
-Start with following the instructions on the Teensy board page:
+A good place to start would be the Teensy board page:
 
 * [Teensyduino](https://www.pjrc.com/teensy/td_download.html)
 
@@ -121,5 +121,5 @@ compensation (say, attached to the tickets).
 
 The repository and its contents are covered by `Apache v2.0`, so anyone can use it without any concerns.
 
-If you feel like expanding on the project, it would be great to see your changes merged to the original repository.
-Definitely no pressure though.
+If you have time for it, it would be great to see your changes merged into the original repository. Definitely no pressure
+though.

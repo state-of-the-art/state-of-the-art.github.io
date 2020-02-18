@@ -121,5 +121,5 @@ compensation (say, attached to the tickets).
 
 The repository and its contents are covered by `Apache v2.0`, so anyone can use it without any concerns.
 
-If you have time for it, it would be great to see your changes merged into the original repository. Definitely no pressure
-though.
+If you have any changes you'd like to share, don't hesitate to make a pull-request and push them into the original repository.
+Definitely no pressure though.

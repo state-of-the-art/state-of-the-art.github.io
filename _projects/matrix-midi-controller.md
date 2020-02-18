@@ -87,7 +87,7 @@ If you make changes to the hardware, you will most likely have to adjust the sou
 ## Known issues
 
 * Adafruit NeoTrellis PCB:
-    * On press, the silicone buttons can touch their LED terminals, which activates the entire vertical line of button on
+    * On press, the silicone buttons can touch the LED terminals, which activates the entire vertical line of button on
     the board. You may have to insulate the terminals with adhesive or apply some other fix.
     * Said buttons weren't exactly made with musical instruments in mind: they are quite stiff and definitely take time
     to get used to.

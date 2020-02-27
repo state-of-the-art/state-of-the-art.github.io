@@ -99,17 +99,17 @@ You can see all the feature requests/bugs on the github page:
 
 ### OpenSource
 
-This is an experimental project - main goal is to test State Of The Art philosophy on practice.
+This is an experimental project. The main goal is to test State of the Art philosophy in practice.
 
-We would like to see a number of independent developers working on the same project issues
-for the real money (attached to the ticket) or just for fun. So let's see how this will work.
+We would love to see independent developers working on the project's issues: for fun and interest
+as well as for monetary compensation (say, attached to the tickets).
 
 #### License
 
-Repository and it's content is covered by `Apache v2.0` - so anyone can use it without any concerns.
+The repository and its contents are covered by `Apache v2.0`, so anyone can use it without any concerns.
 
-If you will have some time - it will be great to see your changes merged to the original repository -
-but it's your choise, no pressure.
+If you have any changes you'd like to share, don't hesitate to make a pull-request and push them into
+the original repository. Definitely no pressure though.
 
 #### Build
 
@@ -119,9 +119,9 @@ add-on installer.
 
 ## Privacy policy
 
-It's very important to save user private data and you can be sure: we working on security
+It's very important to save user private data and you can be sure: we are working on security
 of our applications and improving it every day. No data could be sent somewhere without
-user notification and his direct approve. This application is using network connection
-as minimum as possible to perform only the operations of it's main purpose. All the
-connections are secured by the wide using open standards. Any internet connection will not
-allow to collect any user personal data anyway.
+user notification and his direct approval. This application is using network connection
+as minimum as possible to perform only the operations of its main purpose. All the
+connections are secured by the wide using open standards. Any internet connection will not be
+allowed to collect any user personal data anyway.

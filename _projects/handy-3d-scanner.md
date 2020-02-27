@@ -87,7 +87,7 @@ With Intel Realsense D415 (~$140) and mobile app you can get a simple solution w
 Basically have just 3 main functions:
 * **Capture** - allow to get shots and records of the environment
   * General mode
-    you can take pointclouds capturing your surrounding with a proper positioning of the
+    you can take pointclouds capturing your surroundings with a proper positioning of the
     shots (gyroscope or arcore positioning).
   * Record mode (*in dev*)
     Useful for experimenting with AI, but consumes alot of memory
@@ -137,27 +137,27 @@ You can see all the feature requests/bugs on the github page:
 * [Milestones](https://github.com/state-of-the-art/Handy3DScanner/milestones)
 * [Issues](https://github.com/state-of-the-art/Handy3DScanner/issues)
 
-But overall we have a huge plans to make this application better!
+But overall we have huge plans to make this application better!
 * **Prepare version 1.0** - it should be useful for everyday use.
-* **Kickstarter campagin** - customers want to see the complete product - so why not?
+* **Kickstarter campaign** - customers want to see the complete product - so why not?
 * **Publish source code** - necessary to make sure the project will live it's long life.
 * **Reach the top** - the market could be bigger, any smartphone should get this feature
   because AR/VR is coming. So Handy 3D Scanner can help with building the new future where
-  everyone will take not just photo, but capture part of the 3d world and place it in VR.
+  everyone will take not just photos, but capture part of the 3d world and place it in VR.
 
 ### OpenSource
 
-This is an experimental project - main goal is to test State Of The Art philosophy on practice.
+This is an experimental project. The main goal is to test State of the Art philosophy in practice.
 
-We would like to see a number of independent developers working on the same project issues
-for the real money (attached to the ticket) or just for fun. So let's see how this will work.
+We would love to see independent developers working on the project's issues: for fun and interest
+as well as for monetary compensation (say, attached to the tickets).
 
 #### License
 
-Repository and it's content is covered by `Apache v2.0` - so anyone can use it without any concerns.
+The repository and its contents are covered by `Apache v2.0`, so anyone can use it without any concerns.
 
-If you will have some time - it will be great to see your changes merged to the original repository -
-but it's your choise, no pressure.
+If you have any changes you'd like to share, don't hesitate to make a pull-request and push them into
+the original repository. Definitely no pressure though.
 
 #### Build
 
@@ -167,7 +167,7 @@ build steps.
 
 ## Privacy policy
 
-It's very important to save user private data and you can be sure: we working on security
+It's very important to save user private data and you can be sure: we are working on security
 of our applications and improving it every day. No data could be sent somewhere without
-user notification and his direct approve. This application will work standalone without
+user notification and his direct approval. This application will work standalone without
 any internet connection and will not collect any user personal data anyway.

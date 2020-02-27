@@ -4,7 +4,7 @@ title: About
 excerpt: State Of The Art is a community of free creators
 ---
 
-Hello stranger, since you find this site I want to tell you a little about this project.
+Hello stranger, since you found this site I want to tell you a little about this project.
 
 In a few words: **State Of The Art project is created to change the IT world.**
 
@@ -21,14 +21,14 @@ We'll check how it will go - we have a number of interesting projects, like:
 
 ## Our Codex
 
-Codex is required to descibe our behavior in a different situations and make sure we will
-follow the best practices. It doesn't mean it will be never changed - but hopefully all
-the changes will be added for good.
+Codex is required to describe our behavior in different situations and make sure we will
+follow the best practices. It doesn't mean it will never change - but hopefully all the
+changes will be added for good.
 
 1. *Open Source* - all our projects are open sourced and anyone can join to help.
-2. *Automation* - we belive automation is a greater good and we have to automate everything.
-3. *Privacy* - all our application or services should protect the user privacy and don't
-allow anyone but user (including us) to use this information.
+2. *Automation* - we believe automation is a greater good and we have to automate everything.
+3. *Privacy* - all our applications or services should protect the user privacy and don't
+allow anyone (including us) but the user to use this information.
 4. *Quality* - our projects are fun and we're trying to make them better with each line of
 code.
 
@@ -38,7 +38,7 @@ And we want to test our philosophy using this project, prepare new rules, automa
 finally make sure - everyone can do something useful & can realize themself as the real
 creators.
 
-This project is about opensource and we spending all the money to pay our developers, so
-it will be nice if you can buy our software or use donate buttons to support us.
+This project is about open source and we are spending all the money to pay our developers,
+so it will be nice if you can buy our software or use donate buttons to support us.
 
 Thank you!

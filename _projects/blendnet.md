@@ -45,7 +45,7 @@ Please check out the wiki page: [Wiki](https://github.com/state-of-the-art/Blend
 
 ## Requirements
 
-* Blender 2.8
+* Blender >= 2.80
 * Google Cloud Platform project and google cloud sdk
 
 ## Purpose
@@ -89,8 +89,8 @@ You can see all the feature requests/bugs on the github page:
 
 * Use buckets to cache dependencies/results
 * Cost estimation before rendering
-* Denoising of the render result if option is enabled
-* Distributed smoke baking (per-domain)
+* Distributed smoke baking (per-domain): it's hard to bake multiple domains - it requires one domain
+  per bake, others should be turned off
 * Adding `AWS` and other cloud providers
 * Allocating of preemptible GPU on the instances
 * Detailed statistics to optimize the pipeline

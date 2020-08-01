@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  overlay_filter: 0.8
+  overlay_filter: 0.7
   overlay_image: /assets/images/logo-sota.svg
 excerpt: >
   Union of free creators who want to live & make wonderful things!
@@ -29,6 +29,13 @@ feature_row:
     alt: Handy 3D Scanner application
     excerpt: 3D scaner software based on Intel RealSense D4* camera
     url: /projects/handy-3d-scanner
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - title: "Project: PianoLights"
+    image_path: /assets/images/projects/pianolights/icon.png
+    alt: PianoLights BLE-USB MIDI proxy
+    excerpt: Synthesia-compatible wireless USB-MIDI proxy with lightning features
+    url: /projects/pianolights
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row2:

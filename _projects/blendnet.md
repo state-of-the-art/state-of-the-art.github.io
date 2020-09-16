@@ -12,7 +12,7 @@ sidebar:
       [GitHub](https://github.com/state-of-the-art/BlendNet)
       [blenderartirsts](https://blenderartists.org/t/simple-cloud-rendering/1183255)
   - title: Stack
-    text: Blender 2.8, Python 3.7
+    text: Blender 2.80+, Python 3.7
   - title: Platforms
     text: Linux, MacOSX, Windows
   - title: UI
@@ -46,7 +46,9 @@ Please check out the wiki page: [Wiki](https://github.com/state-of-the-art/Blend
 ## Requirements
 
 * Blender >= 2.80
-* Google Cloud Platform project and google cloud sdk
+* GCP Provider: Google Cloud Platform project and google cloud sdk
+* AWS Provider: Amazon Web Services account and aws cli v2
+* Local Provider: no reqs
 
 ## Purpose
 
@@ -91,7 +93,6 @@ You can see all the feature requests/bugs on the github page:
 * Cost estimation before rendering
 * Distributed smoke baking (per-domain): it's hard to bake multiple domains - it requires one domain
   per bake, others should be turned off
-* Adding `AWS` and other cloud providers
 * Allocating of preemptible GPU on the instances
 * Detailed statistics to optimize the pipeline
 * Simplify the setup process for the end-user

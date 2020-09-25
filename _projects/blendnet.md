@@ -35,6 +35,8 @@ gallery:
 
 Opensource Blender addon and distributed cloud rendering system.
 
+{% include video id="PBa5u7w0FXo" provider="youtube" %}
+
 ## Authors
 
 * Idea & realization: [Rabit](https://github.com/rabits)

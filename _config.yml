@@ -85,6 +85,7 @@ social:
     - https://github.com/state-of-the-art
     - https://twitter.com/stateofthearti2
     - https://www.facebook.com/stateoftheartio
+    - https://www.youtube.com/channel/UCzDjxhdrkoDdyGWDNs-j7hw/
     - https://stackoverflow.com/questions/tagged/state-of-the-art
 
 # Analytics
@@ -122,6 +123,9 @@ footer:
     - label: Facebook
       icon: fab fa-fw fa-facebook-square
       url: https://www.facebook.com/stateoftheartio
+    - label: YouTube
+      icon: fab fa-fw fa-youtube-square
+      url: https://www.youtube.com/channel/UCzDjxhdrkoDdyGWDNs-j7hw/
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/state-of-the-art

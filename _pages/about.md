@@ -31,6 +31,8 @@ changes will be added for good.
 allow anyone (including us) but the user to use this information.
 4. *Quality* - our projects are fun and we're trying to make them better with each line of
 code.
+5. *Publicity* - there is no way to sign any NDA, because that will lead to hidden
+manipulations and will not allow to public the available information.
 
 ## Overall
 

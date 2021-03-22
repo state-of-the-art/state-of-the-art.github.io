@@ -45,6 +45,13 @@ feature_row:
     url: /projects/matrix-midi-controller
     btn_class: "btn--primary"
     btn_label: "Learn more"
+  - title: "Project: Binocular"
+    image_path: /assets/images/projects/binocular/icon.png
+    alt: Binocular VR/AR HW platform
+    excerpt: Open hardware VR/AR platform
+    url: /projects/binocular
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 feature_row2:
   - title: "Codex"
     image_path: /assets/images/codex.png

@@ -49,6 +49,7 @@ youtube channel with nice piano lights - it's your way to get the similar effect
 
 * Non-destructive addon to your piano or midi keyboard
 * Compact and not pricey (~$40)
+* Lighting when you press the key
 * Bluetooth LE MIDI -> USB-MIDI proxy
 * Supports Synthesia piano lights feature
 * Choose colors & transitions

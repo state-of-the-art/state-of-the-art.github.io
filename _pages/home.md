@@ -10,11 +10,11 @@ intro:
   - title: "Projects"
     excerpt: "We're not just existing, we building our own future"
 feature_row:
-  - title: "Project: Handy 3D Scanner"
-    image_path: /assets/images/projects/handy3dscanner/icon.png
-    alt: Handy 3D Scanner application
-    excerpt: 3D scaner software based on Intel RealSense D4* camera
-    url: /projects/handy-3d-scanner
+  - title: "Project: Visit3D"
+    image_path: /assets/images/projects/visit3d/icon.png
+    alt: Visit3D site engine
+    excerpt: 3D site engine / example of wedding invite
+    url: /projects/visit3d
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - title: "Project: aSocial"
